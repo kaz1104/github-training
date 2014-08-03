@@ -199,7 +199,7 @@ footer {
   font-size: 18px;
   font-weight: 800;
   letter-spacing: 0.1em;
-  text-shadow: 1px 1px 3px #999;
+  text-shadow: 2px 2px 4px #aaa;
   position: relative;
   top: 37px;
 }
