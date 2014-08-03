@@ -157,7 +157,7 @@ ruby {
 /*==========*/
 /*Contents-area*/
 #contents {
-  background-color: #fff;
+  /*background-color: #fff;*/
   position: absolute;
   top: 100%;
   width: 100%;
@@ -189,14 +189,19 @@ ruby {
 /*==========*/
 /*Footer*/
 footer {
+  background-color: rgba(243,255,226,.5);
   height: 100px;
   width: 100%;
 }
 
 #footer-content {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  text-shadow: 1px 1px 3px #999;
   position: relative;
-  top: 50%;
-  margin-top: -20px;
+  top: 37px;
 }
 /*==========*/
 /*==========*/
