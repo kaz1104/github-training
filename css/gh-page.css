@@ -98,17 +98,105 @@ ruby {
   font-size: 24px;
   text-align: center;
 }
+
+#top-area a {
+  background-color: transparent;
+  border: 3px solid #fff;
+  border-radius: 3px;
+  color: #fff;
+  display: block;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 1.75;
+  height: 50px;
+  width: 200px;
+  position: relative;
+  left: 50%;
+  margin-left: -100px;
+  margin-top: 20px;
+}
+#top-area a:hover {
+  background-color: #fff;
+  color: #01a6b1;
+  text-decoration: none;
+}
+/*==========*/
+/*common*/
+.co-wrapper {
+  padding: 0 5%;
+}
+
+.contents-title {
+  font-size: 30px;
+  font-weight: 300;
+  padding: 20px 0;
+}
+.inner-title {
+  font-size: 20px;
+  font-weight: 300;
+  padding-top: 10px;
+}
+.center {
+  text-align: center;
+}
+
+.self-intro {
+  margin-bottom: 40px;
+}
+
+.odd {
+  background-color: #fff;
+  color: #666;
+  padding-bottom: 20px;
+}
+.even {
+  background-color: rgba(1,166,177,1);
+  color: #fff;
+  padding-bottom: 20px;
+}
 /*==========*/
 /*Contents-area*/
 #contents {
   background-color: #fff;
-  padding: 20px 0;
   position: absolute;
   top: 100%;
   width: 100%;
 }
 
-#our-team {
+.col-sm-4 {
+  position: relative;
+}
+#our-team img {
+  border: 3px solid #01a6b1;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  position: relative;
+  left: 50%;
+  margin-left: -53px;
+}
+/*==========*/
+/*ux-tools*/
+#ux-tools img {
+  border: 3px solid #fff;
+  border-radius: 3px;
+  height: 100px;
+  width: 100px;
+  position: relative;
+  left: 50%;
+  margin-left: -53px;
+}
+/*==========*/
+/*Footer*/
+footer {
+  height: 100px;
+  width: 100%;
+}
+
+#footer-content {
+  position: relative;
+  top: 50%;
+  margin-top: -20px;
 }
 /*==========*/
 /*==========*/
