@@ -1,1 +1,61 @@
-test
+@charset "UTF-8";
+
+html, body {
+    color: #666;
+    height: 100%;
+    margin:0;
+}
+
+
+
+/*==========*/
+/*Add CSS*/
+* {
+    -webkit-transition: all .25s linear;
+    -moz-transition: all .25s linear;
+    -ms-transition: all .25s linear;
+    -o-transition: all .25s linear;
+    transition: all .25s linear;
+}
+
+input,
+select,
+.form-control {
+    border: 1px solid #aaa;
+    border-radius: 0;
+    box-shadow: none;
+    height: 34px;
+}
+input:focus,
+select:focus,
+.form-control:focus {
+    outline: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+/*==========*/
+/*font*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li,
+a,
+div,
+label,
+ruby {
+    font-family: "Open Sans", "Hiragino Kaku Gothic Pro", "Meiryo", "メイリオ", sans-serif;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+}
+/*==========*/
