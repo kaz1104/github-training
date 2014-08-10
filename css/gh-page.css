@@ -176,9 +176,10 @@ ruby {
   font-size: 30px;
 }
 .exp-container {
+  padding: 0 10px;
   position: absolute;
   bottom: 20px;
-  left: 20px;
+  left: 10px;
 }
 /*==========*/
 /*Contents-area*/
@@ -233,15 +234,33 @@ ruby {
   background: url("../img/prototyping.jpg") no-repeat center center;
   background-size: cover;
 }
+#cjm {
+  background: url("../img/cjm.jpg") no-repeat top left;
+  background-size: cover;
+}
+#heuristic {
+  background: url("../img/heuristic.jpg") no-repeat top left;
+  background-size: cover;
+}
+#ideation {
+  background: url("../img/ideation.jpg") no-repeat top left;
+  background-size: cover;
+}
 
 #persona-exp,
 #interview-exp,
-#prototyping-exp {
+#prototyping-exp,
+#cjm-exp,
+#heuristic-exp,
+#ideation-exp {
   opacity: 0;
 }
 #persona-exp:hover,
 #interview-exp:hover,
-#prototyping-exp:hover {
+#prototyping-exp:hover,
+#cjm-exp:hover,
+#heuristic-exp:hover,
+#ideation-exp:hover {
   opacity: 1;
 }
 /*==========*/
