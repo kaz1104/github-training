@@ -122,6 +122,10 @@ ruby {
 }
 /*==========*/
 /*common*/
+.row {
+  margin: 0;
+}
+
 .co-wrapper {
   padding: 0 5%;
 }
@@ -154,6 +158,28 @@ ruby {
   color: #fff;
   padding-bottom: 20px;
 }
+
+.exp {
+  background-color: rgba(243,255,226,.9);
+  color: #666;
+  display: table-cell;
+  vertical-align: middle;
+  padding: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+.exp h3 {
+  font-weight: 300;
+  font-size: 30px;
+}
+.exp-container {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
 /*==========*/
 /*Contents-area*/
 #contents {
@@ -177,6 +203,10 @@ ruby {
 }
 /*==========*/
 /*ux-tools*/
+#ux-tools {
+  padding: 0;
+}
+
 #ux-tools img {
   border: 3px solid #fff;
   border-radius: 3px;
@@ -185,6 +215,34 @@ ruby {
   position: relative;
   left: 50%;
   margin-left: -53px;
+}
+
+#ux-tools .col-sm-4 {
+  padding: 0;
+}
+
+#persona {
+  background: url("../img/persona.jpg") no-repeat top left;
+  background-size: cover;
+}
+#interview {
+  background: url("../img/interview.jpg") no-repeat center center;
+  background-size: cover;
+}
+#prototyping {
+  background: url("../img/prototyping.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+#persona-exp,
+#interview-exp,
+#prototyping-exp {
+  opacity: 0;
+}
+#persona-exp:hover,
+#interview-exp:hover,
+#prototyping-exp:hover {
+  opacity: 1;
 }
 /*==========*/
 /*Footer*/
